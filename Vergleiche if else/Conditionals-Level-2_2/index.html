@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+    <title>Forms-JS-Level-1_3</title>
+</head>
+<body>
+    <h1>Luftqualität (AQI) Überwachung</h1>
+    <div id="slider-container">
+        <label for="aqi-slider">AQI Wert: </label>
+        <input type="range" id="aqi-slider" name="aqi-slider" min="0" max="150" value="75" oninput="checkAirQuality(this.value)">
+        <p id="result">AQI Wert: 75</p>
+    </div>
+</body>
+</html>

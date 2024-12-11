@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+    <title>Forms-JS-Level-1_2</title>
+</head>
+<body>
+    <h1>Berechne dein Alter</h1>
+    <form id="ageForm" onsubmit="calculateAge(event)">
+        <label for="birthYearInput">Gib dein Geburtsjahr ein:</label>
+        <input type="number" id="birthYearInput" placeholder="z. B. 1990" required>
+        <button type="submit">Alter berechnen</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
